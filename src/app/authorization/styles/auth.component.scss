@@ -1,0 +1,27 @@
+.auth-container {
+  display: block;
+  max-width: 700px;
+  max-height: 800px;
+  margin: auto;
+}
+
+::ng-deep .mat-tab-label {
+  color: black; // Чорний колір для тексту всіх вкладок
+}
+
+::ng-deep .mat-tab-label-active {
+  color: #1976d2; // Синій або будь-який інший колір для активної вкладки
+  font-weight: bold; // Можеш зробити шрифт товщим для виділення активної вкладки
+}
+
+::ng-deep .mat-ink-bar {
+  background-color: #1976d2; // Колір лінії під активною вкладкою
+}
+
+.sign-module-forma{
+  margin: 20px;
+}
+
+.label-auth-container {
+  color: black;
+}

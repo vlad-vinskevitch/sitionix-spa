@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { AuthSwitcherComponent } from './autorithation/auth.component';
+import { AuthComponent } from './authorization/auth.component';
 
 export const routes: Routes = [
-    { path: '', component: AuthSwitcherComponent }
+    { path: '', component: AuthComponent }
 ];
